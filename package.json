@@ -1,0 +1,27 @@
+{
+  "name": "graphql_aws",
+  "version": "1.0.0",
+  "description": "Sets up a graphql API on AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helgiskuli/graphql_aws.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/helgiskuli/graphql_aws/issues"
+  },
+  "homepage": "https://github.com/helgiskuli/graphql_aws#readme",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.11.7"
+  }
+}
